@@ -4,7 +4,7 @@ import {Animated} from 'react-animated-css'
 const Logoright = () => {
 	return (
 	<Animated 
-	animationIn="bounceInRight"
+	animationIn="FadeInRight"
 	animationInDuration={1000}
 	isVisible={true}>
 	<div className="Logoright">
