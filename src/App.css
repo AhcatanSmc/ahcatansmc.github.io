@@ -42,6 +42,7 @@ header {
 
 .App-picture {
 	width: 75%;
+  object-fit: contain!important;
 }
 
 .Logoleft {
