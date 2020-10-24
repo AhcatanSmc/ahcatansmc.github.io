@@ -4,7 +4,7 @@ import '../App.css';
 const Contact = ({ onRouteChange }) => 
 <div>
     <div className="App">
-		<header>
+		<div className="header">
       <div className="Button">
         <button className="Buttonstyle" onClick={() => onRouteChange('Mainpage')}>HOME</button>
         <button className="Buttonstyle" onClick={() => onRouteChange('Bio')}>BIO</button>
@@ -28,7 +28,7 @@ const Contact = ({ onRouteChange }) =>
         <img class="Socials-icons" src={require('../mail.png')} alt="mail-icon"/>
         </a>
     </div>
-    </header>
+    </div>
     </div>
 </div>
 

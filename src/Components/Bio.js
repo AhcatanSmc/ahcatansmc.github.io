@@ -4,7 +4,7 @@ import '../App.css';
 const Bio = ({ onRouteChange }) => 
 <div>
     <div className="App">
-		<header>
+		<div className="header">
       <div className="Button">
         <button className="Buttonstyle" onClick={() => onRouteChange('Mainpage')}>HOME</button>
         <button className="Buttonstyle" onClick={() => onRouteChange('CV')}>CV</button>
@@ -61,7 +61,7 @@ In an effort to constantly improve my knowledge and learn new things every day, 
         <img class="Socials-icons" src={require('../mail.png')} alt="mail-icon"/>
         </a>
       </div>
-    </header>
+    </div>
     </div>
 </div>
 
