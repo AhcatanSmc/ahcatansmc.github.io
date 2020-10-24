@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.62aca588.chunk.css",
+    "main.js": "/static/js/main.e1114e76.chunk.js",
+    "main.js.map": "/static/js/main.e1114e76.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2ca0876f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2ca0876f.js.map",
+    "static/js/2.03b9b172.chunk.js": "/static/js/2.03b9b172.chunk.js",
+    "static/js/2.03b9b172.chunk.js.map": "/static/js/2.03b9b172.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d2b96448c981650528442214ad4bc4de.js": "/precache-manifest.d2b96448c981650528442214ad4bc4de.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.62aca588.chunk.css.map": "/static/css/main.62aca588.chunk.css.map",
+    "static/js/2.03b9b172.chunk.js.LICENSE.txt": "/static/js/2.03b9b172.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/Background.e27d0ca0.jpg",
+    "static/media/github.png": "/static/media/github.a2004c82.png",
+    "static/media/insta.png": "/static/media/insta.6edd621a.png",
+    "static/media/linkedin.png": "/static/media/linkedin.4adc3fae.png",
+    "static/media/mail.png": "/static/media/mail.dad75ebd.png",
+    "static/media/ncpicture.jpg": "/static/media/ncpicture.f6422f03.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ca0876f.js",
+    "static/js/2.03b9b172.chunk.js",
+    "static/css/main.62aca588.chunk.css",
+    "static/js/main.e1114e76.chunk.js"
+  ]
+}
