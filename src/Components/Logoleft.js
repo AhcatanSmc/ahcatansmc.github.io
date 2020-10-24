@@ -5,7 +5,7 @@ import {Animated} from 'react-animated-css';
 const Logoleft = () => {
 	return (
 	<Animated 
-	animationIn="FadeInLeft"
+	animationIn="fadeInLeft"
 	animationInDuration={1000}
 	isVisible={true}>
 	<div className="Logoleft">
