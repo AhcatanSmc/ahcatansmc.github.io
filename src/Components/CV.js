@@ -33,7 +33,7 @@ const CV = ({ onRouteChange }) =>
         <h1> Skills </h1>
         <p> Adobe • Creative Cloud • After Effects • Premiere Pro</p>
         <p>Photoshop • Illustrator • Indesign • Lightroom • Procreate • Spark AR</p>
-        <p>HTML • CSS • Javascript • React.js • Node.js • Redux • Github • Office Suite</p> <br></br>
+        <p>HTML • CSS • Javascript • React.js • Node.js • Redux • SQL • Github • Office Suite</p> <br></br>
         <h1>Langages</h1>
         <p> French • Mother tongue </p>
         <p> English • Good knowledge </p>

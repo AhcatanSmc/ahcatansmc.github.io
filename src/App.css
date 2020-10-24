@@ -120,6 +120,11 @@ hr {
   width: 80px;
 }
 
+.link {
+  text-decoration: none;
+  color:black;
+}
+
 .Homepage {
   background: white;
   width: 50%;
