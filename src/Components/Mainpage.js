@@ -1,16 +1,22 @@
 import React from 'react'; 
 import '../App.css';
+import {Animated} from 'react-animated-css';
 
 
 const Mainpage = ({ onRouteChange }) => 
 	<div>
     <div className="App">
 		<div className="header">
+      <Animated 
+      animationIn="fadeInDown"
+      animationInDuration={1000}
+      isVisible={true}>
       <div className="Button">
         <button className="Buttonstyle" onClick={() => onRouteChange('CV')}>CV</button>
         <button className="Buttonstyle" onClick={() => onRouteChange('Bio')}>BIO</button>
         <button className="Buttonstyle" onClick={() => onRouteChange('Contact')}>CONTACT</button>
       </div>
+      </Animated>
       <div className="Homepage">
         	<h1 className="Title">Hi, my name is Natacha</h1>
           <h2 className="Title">& I'm a Digital Creator.</h2>
