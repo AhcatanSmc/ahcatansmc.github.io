@@ -33,7 +33,7 @@ const Bio = ({ onRouteChange }) => (
           <h1 className="App-title">About me</h1>
           <p>
             <b>
-              My name is Natacha and I’m a digital creator looking for new
+              My name is Natacha and I’m a digital creative looking for new
               opportunities.{" "}
             </b>
             <br />
