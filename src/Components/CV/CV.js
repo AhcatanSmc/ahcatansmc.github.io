@@ -109,7 +109,7 @@ const CV = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../Images/linkedin.png")}
+              src={require("../../Images/linkedin.png")}
               alt="linkedin-icon"
             />
           </a>
@@ -120,7 +120,7 @@ const CV = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../Images/insta.png")}
+              src={require("../../Images/insta.png")}
               alt="insta-icon"
             />
           </a>
@@ -131,7 +131,7 @@ const CV = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../Images/github.png")}
+              src={require("../../Images/github.png")}
               alt="github-icon"
             />
           </a>
@@ -142,7 +142,7 @@ const CV = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../Images/mail.png")}
+              src={require("../../Images/mail.png")}
               alt="mail-icon"
             />
           </a>
