@@ -1,0 +1,26 @@
+.App-picture {
+  width: 75%;
+  object-fit: contain !important;
+}
+
+.Title {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 968px) {
+  .App-picture {
+    width: 75%;
+    height: auto !important;
+    object-fit: contain !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .App-picture {
+    width: 80%;
+    height: auto !important;
+    object-fit: contain !important;
+  }
+}

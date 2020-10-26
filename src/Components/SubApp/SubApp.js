@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-import Mainpage from "./Mainpage";
-import Contact from "./Contact";
-import CV from "./CV";
-import Bio from "./Bio";
+import Mainpage from "../Mainpage/Mainpage";
+import Contact from "../Contact/Contact";
+import CV from "../CV/CV";
+import Bio from "../Bio/Bio";
 
 class SubApp extends Component {
   constructor() {

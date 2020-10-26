@@ -1,0 +1,13 @@
+.Logoright {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding-top: 5px;
+  color: black;
+  margin-right: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .Logoright {
+    margin-right: 10px;
+  }
+}

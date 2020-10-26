@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 
-import Nav from "./Components/Nav";
-import SubApp from "./Components/SubApp";
+import Nav from "../Nav/Nav";
+import SubApp from "../SubApp/SubApp";
 
 const App = () => {
   return (

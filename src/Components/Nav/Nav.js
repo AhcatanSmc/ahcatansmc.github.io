@@ -1,8 +1,8 @@
 import React from "react";
-import "../App.css";
+import "./Nav.css";
 
-import Logoleft from "./Logoleft";
-import Logoright from "./Logoright";
+import Logoleft from "../Logoleft/Logoleft";
+import Logoright from "../Logoright/Logoright";
 
 const Nav = () => {
   return (

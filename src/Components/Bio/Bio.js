@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "../App/App.css";
 import { Animated } from "react-animated-css";
 
 const Bio = ({ onRouteChange }) => (
@@ -30,7 +30,7 @@ const Bio = ({ onRouteChange }) => (
           </div>
         </Animated>
         <div className="Text Homepage">
-          <h1 className="App-title">About me</h1>
+          <h1>About me</h1>
           <p>
             <b>
               My name is Natacha and I’m a digital creative looking for new
@@ -127,7 +127,7 @@ const Bio = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../linkedin.png")}
+              src={require("../../Images/linkedin.png")}
               alt="linkedin-icon"
             />
           </a>
@@ -138,7 +138,7 @@ const Bio = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../insta.png")}
+              src={require("../../Images/insta.png")}
               alt="insta-icon"
             />
           </a>
@@ -149,7 +149,7 @@ const Bio = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../github.png")}
+              src={require("../../Images/github.png")}
               alt="github-icon"
             />
           </a>
@@ -160,7 +160,7 @@ const Bio = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../mail.png")}
+              src={require("../../Images/mail.png")}
               alt="mail-icon"
             />
           </a>

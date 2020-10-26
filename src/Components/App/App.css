@@ -19,7 +19,7 @@
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url("Background.jpg") no-repeat center center;
+  background: url("../Images/Background.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,44 +32,6 @@
   align-items: center;
   align-content: center;
   width: 100%;
-}
-
-.Title {
-  color: black;
-  text-align: center;
-  font-weight: bold;
-}
-
-.App-picture {
-  width: 75%;
-  object-fit: contain !important;
-}
-
-.Logoleft {
-  font-family: "Roboto", sans-serif;
-  padding-top: 5px;
-  font-weight: bold;
-  color: black;
-  margin-left: 60px;
-}
-
-.Logoright {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  padding-top: 5px;
-  color: black;
-  margin-right: 60px;
-}
-
-.nav {
-  position: fixed;
-  background-color: white;
-  height: 60px;
-  width: 100%;
-  z-index: 1000;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .Buttonstyle {
@@ -110,18 +72,8 @@
   text-align: center;
 }
 
-hr {
-  width: 200px;
-  margin-top: -2px;
-}
-
 .Socials-icons {
   width: 80px;
-}
-
-.link {
-  text-decoration: none;
-  color: black;
 }
 
 .Homepage {
@@ -139,12 +91,6 @@ hr {
     width: 60%;
     height: auto !important;
   }
-
-  .App-picture {
-    width: 75%;
-    height: auto !important;
-    object-fit: contain !important;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -155,26 +101,10 @@ hr {
   .App {
     border: white solid 0px;
   }
-  .Logoleft {
-    margin-left: 10px;
-  }
-  .Logoright {
-    margin-right: 10px;
-  }
-
-  .App-picture {
-    width: 80%;
-    height: auto !important;
-    object-fit: contain !important;
-  }
 
   .Buttonstyle {
     margin: 10px;
     margin-top: 30px;
     padding: 5px 20px;
-  }
-
-  .Textbold {
-    font-weight: bold;
   }
 }

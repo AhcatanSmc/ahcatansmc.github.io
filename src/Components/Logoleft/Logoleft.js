@@ -1,5 +1,6 @@
 import React from "react";
-import "../App.css";
+import "../App/App.css";
+import "./Logoleft.css";
 import { Animated } from "react-animated-css";
 
 const Logoleft = () => {

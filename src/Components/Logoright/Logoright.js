@@ -1,4 +1,5 @@
 import React from "react";
+import "./Logoright.css";
 import { Animated } from "react-animated-css";
 
 const Logoright = () => {

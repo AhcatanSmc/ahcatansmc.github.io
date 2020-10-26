@@ -1,5 +1,6 @@
 import React from "react";
-import "../App.css";
+import "../App/App.css";
+import "./CV.css";
 import { Animated } from "react-animated-css";
 
 const CV = ({ onRouteChange }) => (
@@ -34,7 +35,7 @@ const CV = ({ onRouteChange }) => (
         </Animated>
         <div className="Text Homepage">
           <h1>PROFESSIONAL EXPERIENCE</h1>
-          <p className="Textbold"> June 2020 - Present : </p> <hr></hr>
+          <p> June 2020 - Present : </p> <hr></hr>
           <br />
           <p>
             {" "}
@@ -47,21 +48,21 @@ const CV = ({ onRouteChange }) => (
             generally taking the best care of followers.
           </p>{" "}
           <br></br>
-          <p className="Textbold"> May 2019 - Present : </p> <hr></hr>
+          <p> May 2019 - Present : </p> <hr></hr>
           <p>
             {" "}
             <b>Web Developper (Freelance) </b> <br />
             <br /> Creating sites and apps from zero with React, Node.js, SQL.
           </p>{" "}
           <br />
-          <p className="Textbold"> October 2018 - Present : </p> <hr></hr>
+          <p> October 2018 - Present : </p> <hr></hr>
           <p>
             {" "}
             <b>Specialised Educator </b> <br />
             <br /> Organising activities with mentally handicaped people.{" "}
           </p>{" "}
           <br />
-          <p className="Textbold"> August 2017 - Jun 2020 : </p> <hr></hr>
+          <p> August 2017 - Jun 2020 : </p> <hr></hr>
           <p>
             {" "}
             <b>Psychologist </b> <br /> <br></br> Taking care of residents with
@@ -69,11 +70,11 @@ const CV = ({ onRouteChange }) => (
           </p>
           <br />
           <h1>EDUCATION</h1>
-          <p className="Textbold"> 2019 - 2020 :</p> <hr></hr>
+          <p> 2019 - 2020 :</p> <hr></hr>
           <p> Certification in Clinical Psychotherapy </p> <br></br>
-          <p className="Textbold"> 2015 - 2017 :</p> <hr></hr>
+          <p> 2015 - 2017 :</p> <hr></hr>
           <p> Master Degree in Clinical Psychology </p> <br></br>
-          <p className="Textbold"> 2011 - 2015 :</p> <hr></hr>
+          <p> 2011 - 2015 :</p> <hr></hr>
           <p> Bachelor Degree in Psychology and Educational Sciences </p>{" "}
           <br></br>
           <h1> Other Certifications </h1>
@@ -108,7 +109,7 @@ const CV = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../linkedin.png")}
+              src={require("../Images/linkedin.png")}
               alt="linkedin-icon"
             />
           </a>
@@ -119,7 +120,7 @@ const CV = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../insta.png")}
+              src={require("../Images/insta.png")}
               alt="insta-icon"
             />
           </a>
@@ -130,7 +131,7 @@ const CV = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../github.png")}
+              src={require("../Images/github.png")}
               alt="github-icon"
             />
           </a>
@@ -141,7 +142,7 @@ const CV = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../mail.png")}
+              src={require("../Images/mail.png")}
               alt="mail-icon"
             />
           </a>

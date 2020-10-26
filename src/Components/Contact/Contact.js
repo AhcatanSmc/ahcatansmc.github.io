@@ -1,8 +1,8 @@
 import React from "react";
-import "../App.css";
+import "../App/App.css";
 import { Animated } from "react-animated-css";
 
-const Mainpage = ({ onRouteChange }) => (
+const Contact = ({ onRouteChange }) => (
   <div>
     <div className="App">
       <div className="header">
@@ -12,8 +12,11 @@ const Mainpage = ({ onRouteChange }) => (
           isVisible={true}
         >
           <div className="Button">
-            <button className="Buttonstyle" onClick={() => onRouteChange("CV")}>
-              CV
+            <button
+              className="Buttonstyle"
+              onClick={() => onRouteChange("Mainpage")}
+            >
+              HOME
             </button>
             <button
               className="Buttonstyle"
@@ -21,22 +24,14 @@ const Mainpage = ({ onRouteChange }) => (
             >
               BIO
             </button>
-            <button
-              className="Buttonstyle"
-              onClick={() => onRouteChange("Contact")}
-            >
-              CONTACT
+            <button className="Buttonstyle" onClick={() => onRouteChange("CV")}>
+              CV
             </button>
           </div>
         </Animated>
-        <div className="Homepage">
-          <h1 className="Title">Hi, my name is Natacha</h1>
-          <h2 className="Title">& I'm a Digital Creative.</h2>
-          <img
-            src={require("../ncpicture.jpg")}
-            className="App-picture"
-            alt="pictureNC"
-          />
+        <div className="Text Homepage">
+          <h1>How to contact me ?</h1>
+          <p> natacha.camus@hotmail.com </p>
         </div>
         <div>
           <a
@@ -46,7 +41,7 @@ const Mainpage = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../linkedin.png")}
+              src={require("../../Images/linkedin.png")}
               alt="linkedin-icon"
             />
           </a>
@@ -57,7 +52,7 @@ const Mainpage = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../insta.png")}
+              src={require("../../Images/insta.png")}
               alt="insta-icon"
             />
           </a>
@@ -68,7 +63,7 @@ const Mainpage = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../github.png")}
+              src={require("../../Images/github.png")}
               alt="github-icon"
             />
           </a>
@@ -79,7 +74,7 @@ const Mainpage = ({ onRouteChange }) => (
           >
             <img
               class="Socials-icons"
-              src={require("../mail.png")}
+              src={require("../../Images/mail.png")}
               alt="mail-icon"
             />
           </a>
@@ -89,4 +84,4 @@ const Mainpage = ({ onRouteChange }) => (
   </div>
 );
 
-export default Mainpage;
+export default Contact;
