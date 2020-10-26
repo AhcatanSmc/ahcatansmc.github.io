@@ -71,11 +71,22 @@ const CV = ({ onRouteChange }) => (
           <br />
           <h1>EDUCATION</h1>
           <p> 2019 - 2020 :</p> <hr></hr>
-          <p> Certification in Clinical Psychotherapy </p> <br></br>
+          <p>
+            {" "}
+            <b>Certification in Clinical Psychotherapy</b>{" "}
+          </p>{" "}
+          <br></br>
           <p> 2015 - 2017 :</p> <hr></hr>
-          <p> Master Degree in Clinical Psychology </p> <br></br>
+          <p>
+            {" "}
+            <b>Master Degree in Clinical Psychology</b>{" "}
+          </p>{" "}
+          <br></br>
           <p> 2011 - 2015 :</p> <hr></hr>
-          <p> Bachelor Degree in Psychology and Educational Sciences </p>{" "}
+          <p>
+            {" "}
+            <b>Bachelor Degree in Psychology and Educational Sciences </b>
+          </p>{" "}
           <br></br>
           <h1> Other Certifications </h1>
           <p> • Complete Roadmap to Senior Web Developer Diploma - Udemy </p>
