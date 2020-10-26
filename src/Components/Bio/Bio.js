@@ -111,7 +111,7 @@ const Bio = ({ onRouteChange }) => (
           </p>
           <h2>Web Development</h2>
           <p>
-            As a results from teaching myself how to code, I can create websites
+            As a result from teaching myself how to code, I can create websites
             from zero. As an example, I’ve made this portfolio website entirely
             on my own. I've used React to develop it, Photoshop to work on its images
             and background, and Procreate for each of my handmade logos. I've also made a
