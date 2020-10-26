@@ -90,7 +90,7 @@ const Bio = ({ onRouteChange }) => (
             crafted concept and visual identity that I’ve made from scratch, on
             which I’m active everyday. I create visual content ranging from
             photography to reels, IGTVs, stories and also AR filters developed
-            with Spark AR that you can check out{" "}
+            with Spark AR. You can check everything out{" "}
             <a
               href="https://www.instagram.com/junespectacular/"
               rel="noopener noreferrer"
@@ -113,10 +113,17 @@ const Bio = ({ onRouteChange }) => (
           <p>
             As a results from teaching myself how to code, I can create websites
             from zero. As an example, I’ve made this portfolio website entirely
-            on my own using React, Photoshop and Procreate. I've also made a
+            on my own. I've used React to develop it, Photoshop to work on its images
+            and background, and Procreate for each of my handmade logos. I've also made a
             dozen of other projects in the context of my learning, among which I
             built a entire face recognition app using React, Node.js, and
-            PostgresQL.
+            PostgresQL, that you can check out on my <a
+              href="https://github.com/AhcatanSmc"
+              rel="noopener noreferrer"
+              target={"_blank"}
+            >
+              <b>GitHub</b>
+            </a>.
           </p>
         </div>
         <div>

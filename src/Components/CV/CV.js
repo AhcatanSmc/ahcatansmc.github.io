@@ -93,7 +93,7 @@ const CV = ({ onRouteChange }) => (
           <p> • The Complete Web Developer: Zero to Mastery - Udemy </p>{" "}
           <br></br>
           <h1> Skills </h1>
-          <p> Adobe • Creative Cloud • After Effects • Premiere Pro</p>
+          <p> Adobe Creative Cloud • After Effects • Premiere Pro</p>
           <p>
             Photoshop • Illustrator • Indesign • Lightroom • Procreate • Spark
             AR
