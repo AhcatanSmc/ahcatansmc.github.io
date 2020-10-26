@@ -1,5 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
 .App {
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
@@ -7,9 +18,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border: white solid 60px;
+  border: 60px solid #fff;
 }
-
 .App:before {
   content: "";
   display: block;
@@ -19,13 +29,9 @@
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url("Background.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url(/static/media/Background.56b9c1b9.jpg) no-repeat 50%;
   background-size: cover;
 }
-
 .header {
   display: flex;
   flex-direction: column;
@@ -33,37 +39,31 @@
   align-content: center;
   width: 100%;
 }
-
 .Title {
-  color: black;
+  color: #000;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
 }
-
 .App-picture {
   width: 75%;
   object-fit: contain !important;
 }
-
 .Logoleft {
-  font-family: "Roboto", sans-serif;
-  padding-top: 5px;
-  font-weight: bold;
-  color: black;
   margin-left: 60px;
 }
-
+.Logoleft,
 .Logoright {
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
   padding-top: 5px;
-  color: black;
+  font-weight: 700;
+  color: #000;
+}
+.Logoright {
   margin-right: 60px;
 }
-
 .nav {
   position: fixed;
-  background-color: white;
+  background-color: #fff;
   height: 60px;
   width: 100%;
   z-index: 1000;
@@ -71,61 +71,52 @@
   flex-direction: row;
   justify-content: space-between;
 }
-
 .Buttonstyle {
   margin: 30px;
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  border: none;
+  font-weight: 700;
   padding: 10px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   border-radius: 2%;
-  background: black;
-  color: white;
-  border: white solid 2px;
+  background: #000;
+  color: #fff;
+  border: 2px solid #fff;
 }
-
 .Buttonstyle:hover {
-  background: white;
-  color: black;
-  border: black solid 2px;
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
 }
-
 .Button {
   position: relative;
   bottom: 20px;
   padding-top: 20px;
   margin-top: 60px;
 }
-
 .Text {
-  background: white;
+  background: #fff;
   width: 600px;
   padding: 10px;
   margin-bottom: 30px;
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
-
 hr {
   width: 200px;
   margin-top: -2px;
 }
-
 .Socials-icons {
   width: 80px;
 }
-
 .link {
   text-decoration: none;
-  color: black;
+  color: #000;
 }
-
 .Homepage {
-  background: white;
+  background: #fff;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -133,27 +124,24 @@ hr {
   padding: 30px;
   margin-bottom: 30px;
 }
-
 @media screen and (max-width: 968px) {
   .Homepage {
     width: 60%;
     height: auto !important;
   }
-
   .App-picture {
     width: 75%;
     height: auto !important;
     object-fit: contain !important;
   }
 }
-
 @media screen and (max-width: 768px) {
   .Homepage {
     width: 75%;
     height: auto !important;
   }
   .App {
-    border: white solid 0px;
+    border: 0 solid #fff;
   }
   .Logoleft {
     margin-left: 10px;
@@ -161,20 +149,17 @@ hr {
   .Logoright {
     margin-right: 10px;
   }
-
   .App-picture {
     width: 80%;
     height: auto !important;
     object-fit: contain !important;
   }
-
   .Buttonstyle {
-    margin: 10px;
-    margin-top: 30px;
+    margin: 30px 10px 10px;
     padding: 5px 20px;
   }
-
   .Textbold {
-    font-weight: bold;
+    font-weight: 700;
   }
 }
+/*# sourceMappingURL=main.f37e4d65.chunk.css.map */
