@@ -63,7 +63,7 @@ const Bio = ({ onRouteChange }) => (
             from a different background allowed me to have a fresh and
             alternative perspective on creative things. I’ve also specialized in
             personality testing as a psychologist, which allowed me to naturally
-            have a better understanding of the human behavior and perception of
+            have a better understanding of the human behavior and our perception of
             things, which can prove to be quite useful when designing visuals,
             interact with people on social media or in the field of UX.
             <br />
