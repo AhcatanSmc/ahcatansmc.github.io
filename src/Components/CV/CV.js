@@ -59,7 +59,7 @@ const CV = ({ onRouteChange }) => (
           <p>
             {" "}
             <b>Specialised Educator </b> <br />
-            <br /> Organising activities with mentally handicaped people.{" "}
+            <br /> Organising activities with mentally handicapped people.{" "}
           </p>{" "}
           <br />
           <p> August 2017 - Jun 2020 : </p> <hr></hr>
