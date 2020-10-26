@@ -98,7 +98,7 @@ const Bio = ({ onRouteChange }) => (
             >
               <b>here</b>
             </a>
-            . I also have patnerships with several brands and I create content
+            . I also have partnerships with several brands and I create content
             for them.
           </p>
           <h2> Community Management </h2>
