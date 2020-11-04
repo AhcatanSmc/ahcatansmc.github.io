@@ -42,7 +42,7 @@ const CV = ({ onRouteChange }) => (
             <b>Content Creator & Community Manager (Freelance)</b> <br />
             <br />
             Creating visual identities, images, video, AR filters and other
-            digital content. Developed a 6K+ community on Instagram in 4 months.
+            digital content. Developed a 7K+ community on Instagram in 4 months.
             Creating content for partner brands. Managing communities. This
             includes concluding deals with brands, organisizing contests, and
             generally taking the best care of followers.

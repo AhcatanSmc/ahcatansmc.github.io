@@ -86,7 +86,7 @@ const Bio = ({ onRouteChange }) => (
           <p>
             {" "}
             It's been four months now that I've succesfully developped a
-            community of 6K+ followers on Instagram, centered around a carefully
+            community of 7K+ followers on Instagram, centered around a carefully
             crafted concept and visual identity that I’ve made from scratch, on
             which I’m active everyday. I create visual content ranging from
             photography to reels, IGTVs, stories and also AR filters developed
